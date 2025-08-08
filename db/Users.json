@@ -1,0 +1,114 @@
+{
+  "user_details": [
+    {
+      "name": "John1",
+      "email": "john@example.com",
+      "phone": "5552223333",
+      "website": "http://mikejohnson.org",
+      "id": "3"
+    },
+    {
+      "id": "6",
+      "username": "Linda Martinez",
+      "name": "Linda",
+      "email": "linda.martinez@example.com",
+      "phone": "5553339999",
+      "website": "http://lindamartinez.com",
+      "address": {
+        "street": "987 Birch Street",
+        "suite": "Floor 3",
+        "city": "Phoenix",
+        "Zipcode": "85001"
+      },
+      "company": {
+        "name": "Green Solutions"
+      }
+    },
+    {
+      "name": "Rosy",
+      "email": "william.taylor@example.com",
+      "phone": "5551112222",
+      "website": "http://willtaylor.dev",
+      "id": "7"
+    },
+    {
+      "id": "8",
+      "username": "Sarah Wilson",
+      "name": "Sarah",
+      "email": "sarah.wilson@example.com",
+      "phone": "5556664444",
+      "website": "http://sarahwilson.pro",
+      "address": {
+        "street": "159 Palm Drive",
+        "suite": "Unit 7F",
+        "city": "Miami",
+        "Zipcode": "33101"
+      },
+      "company": {
+        "name": "Wilson Consulting"
+      }
+    },
+    {
+      "id": "9",
+      "username": "David Lee",
+      "name": "David",
+      "email": "david.lee@example.com",
+      "phone": "5558881111",
+      "website": "http://davidlee.org",
+      "address": {
+        "street": "753 Aspen Court",
+        "suite": "#12",
+        "city": "San Diego",
+        "Zipcode": "92101"
+      },
+      "company": {
+        "name": "NexusWare"
+      }
+    },
+    {
+      "id": "10",
+      "username": "Karen Moore",
+      "name": "Karen",
+      "email": "karen.moore@example.com",
+      "phone": "5554447777",
+      "website": "http://karenmoore.io",
+      "address": {
+        "street": "369 Redwood Street",
+        "suite": "Room 8",
+        "city": "Dallas",
+        "Zipcode": "75201"
+      },
+      "company": {
+        "name": "Digital Edge Ltd."
+      }
+    },
+    {
+      "id": "09ba",
+      "name": "Teja",
+      "email": "teja@gmail.com",
+      "phone": "9876543212",
+      "website": "http://teja.com"
+    },
+    {
+      "id": "2708",
+      "name": "Vani",
+      "email": "vani@gmail.com",
+      "phone": "8907654356",
+      "website": "http://amazon.com"
+    },
+    {
+      "id": "703f",
+      "name": "Reshu",
+      "email": "reshu@gmail.com",
+      "phone": "897656789",
+      "website": "http://reshuskdm.com"
+    },
+    {
+      "id": "1e7a",
+      "name": "John",
+      "email": "Joh@gmail.com",
+      "phone": "787589",
+      "website": "7284892"
+    }
+  ]
+}

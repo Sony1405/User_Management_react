@@ -1,0 +1,106 @@
+#edit-form {
+  width: 350px;
+  height: 320px;
+  border: 1px solid #aaa;
+   border-radius: 20px;
+  /* padding: 0; */
+  background: rgba(133, 189, 215, 0.8784313725);
+  background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(244, 247, 251) 100%);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 30px 30px -20px;
+  font-family:Arial, Helvetica, sans-serif;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+#form-head {
+  border: 1px solid rgba(133, 189, 215, 0.8784313725);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 10px 15px 0 15px;
+}
+
+#heading {
+margin-left: 200px;
+  margin: 0;
+  /* height: 10px; */
+  font-weight: bold;
+  margin-left: 140px;
+}
+
+#cross {
+    /* border: 2px solid; */
+  color: gray;
+  margin-left: 95px;
+  font-size: 25px;
+  cursor: pointer;
+}
+#cross:hover{
+    color: black;
+}
+
+#form-body {
+    /* border: 2px solid; */
+    margin-top: 40px;
+}
+
+label {
+/* border: 2px solid; */
+  margin: 8px 0 4px;
+  font-weight: 500;
+  padding-left: 30px;
+}
+#label-4{
+    padding-left: 20px;
+}
+input {
+  width: 70%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid rgba(133, 189, 215, 0.8784313725);
+  border-radius: 20px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  box-shadow: #cff0ff 0px 10px 10px -5px;
+  
+}
+
+input:hover, #input-4:hover{
+    background-color: rgba(133, 189, 215, 0.8784313725);
+    font-weight: bold;
+    border: none;
+}
+#form-foot {
+    /* border: 2px solid; */
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 15px;
+  gap: 10px;
+}
+
+.btn {
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid rgba(133, 189, 215, 0.8784313725);
+  background-color: white;
+  color: black;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 30px 30px -20px;
+}
+.btn:hover{
+    background-color: rgba(133, 189, 215, 0.8784313725);
+}
+.btn + .btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 30px 30px -20px;
+}

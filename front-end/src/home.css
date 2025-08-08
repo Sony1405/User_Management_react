@@ -1,0 +1,81 @@
+#web{
+    /* border: 2px solid; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+       /* @keyframes pulseBackground {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+} */
+
+background: linear-gradient(-45deg, #ff007a, #a600ff, #00d2ff, #ff7eb3);
+background-size: 400% 400%;
+/* animation: pulseBackground 15s ease infinite; */
+
+}
+
+#data-head{
+    /* border: 2px solid; */
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+
+}
+
+#cards{
+    /* border: 2px solid; */
+    width: 90%;
+    margin-left: 130px;
+    display: flex;
+    row-gap: 20px;
+    column-gap: 20px;
+    flex-wrap: wrap ;
+    /* position: absolute; */
+    margin-top: 20px;
+}
+.card{
+    border: 1px solid ;
+    border-radius: 5px;
+    height: 325px;
+    width: 18rem;
+}
+.card-img-top{
+    /* border: 2px solid; */
+    height: 150px;
+    width: 100%;
+    background-color: rgba(133, 189, 215, 0.489);
+}
+.card-body{
+    /* border: 2px solid; */
+    line-height: 0.5;
+    padding-left: 20px;
+    border-top: none;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.card-icon {
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+}
+#card-foot{
+    /* border: 2px solid; */
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:rgba(128, 128, 128, 0.47) ;
+}
+#heart{
+    color: red;
+}
+.icon{
+    color: black;
+}
